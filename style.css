@@ -9,8 +9,8 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: flex-start;
-    gap: 35px;
     align-items: center;
+    gap: 35px;
     height: 100vh;
     flex-direction: column;
 }
