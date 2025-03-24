@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Delius&family=Patrick+Hand&display=swap');
+body {
+    font-family: "Delius", cursive;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    text-align: center;
+    padding-top: 0%;
+    padding: 50px;
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.slider {
+    position: relative;
+    max-width: 600px;
+    background: rgba(255, 182, 193, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+    text-align: center;
+    color: #5a1a1a;
+    overflow: hidden;
+    
+
+}
+h1{
+
+}
+i{
+    font-family: "Patrick Hand", cursive;
+}
+.slide {
+    display: none;
+}
+.active {
+    display: block;
+}
+.nav-buttons {
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    width: 90px;
+    text-align: center;
+}
+button:hover {
+    background-color: #d94884;
+}
+#nextBtn {
+    display: inline-block;
+}
+#prevBtn {
+    display: none;
+}
+.game {
+    margin-top: 40px;
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #5a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.game button {
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Delius", cursive;
+}
+.verse{
+    font-family: "Charm", cursive;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:400px) {
+    h1{
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    
+
+    body{
+        font-size: 12px;
+    }
+    button{
+        font-size: 15px;
+    }
+    .slider{
+        display: inline-block;
+    }
+    .game{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .game button{
+        font-size: 10px;
+        height: 45px;
+        width: 80px;
+
+    }
+}
